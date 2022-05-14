@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Informações do usuário<h2>
+    <table border="1">
+        
+        <% data.forEach(function(details) { %>
+            
+                <h2><%= details.name %></h2>
+                <p1>E-mail: <%= details.email %></p1>
+                <br>
+                <p1>Curso: <%= details.curso %></p1>
+                <br>
+            <% }) %>
+        </tbody>
+        <button><a href="/">Voltar</a></button>
+        <footer id="footercopy">Copyright by Alef Hamad 2022</footer>
+
+</body>
+</html>

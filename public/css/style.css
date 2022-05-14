@@ -1,0 +1,56 @@
+html {
+    font-size: 30px;
+    font-family: arial;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+head {
+    background-color: #DCDCDC;
+    border-style: solid;
+}
+
+footer {
+    background-color: #696969;
+    /* align footer to bottom of page */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+
+
+}
+
+
+
+.entrada {
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.float-parent-element {
+    position: relative;
+}
+
+.float-child-element {
+    float: left;
+}
+
+.botnormal {
+    align-self: stretch;
+}
+
+fieldset {
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+
+#footercopy{
+    color: #DCDCDC;
+    font-size: medium;
+    align-self: center;
+}
